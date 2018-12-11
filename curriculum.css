@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+font-family: 'Ubuntu', sans-serif;}
+h1{text-align: center;}
+h2{text-align: center;}
+p{text-align: right;}
+.contenuCV{
+	display :inline-block
+		position: relative;
+margin-left: 40%;
+margin-top: 60%
+	right: 0;
+	width:60%;
+	bottom: 30%;
+}
+.contact p{opacity: 0;}
+.contact:hover p{opacity: 1;}
+.contact{
+	left: 0;
+	position: relative; 
+	background-color: #2f65a77d;
+	padding: 10px;
+	width: 30%
+}
+.contact:hover{
+    font-size: 120%;
+}
+
+
+.experience{
+
+	background-color: #9ba4b97d;
+	padding: 10px;
+
+
+}
+.experience p{display: none;}
+.experience:hover p{display: block;}
+
+.formation{
+	background-color: #9ba4b97d;
+		padding: 10px;
+}
+.formation p{display: none;}
+.formation:hover p{display: block;}
+.experience:hover{
+font-size: 120%
+
+}
+
+.formation:hover{
+font-size: 120%
+
+}
